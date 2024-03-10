@@ -1,0 +1,93 @@
+body {
+    background-image: url(ppp.jpg);
+}
+
+header{
+    grid-area: auto;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    text-align: center;
+}
+
+header div {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    background-color: chartreuse;
+}
+
+header a:nth-child(8):hover{
+    background-color: aqua;
+    
+}
+
+header a:nth-child(8):active{
+    background-color:gold;
+    
+}
+
+header a:hover{
+    background-color:  rgb(43, 76, 226);
+}
+
+header a:active{
+    background-color: blueviolet;
+}
+
+header a:nth-child(8){
+    background-color: rgb(236, 19, 19);
+ }
+
+main{
+    border: 2px solid black;
+    width: 100%;
+    height: 90vh;
+    display: block;
+    background: linear-gradient(#1E90FF, MediumVioletRed);
+}
+.maket main div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maket main div img{
+    
+    width: 70%;
+    height: auto;
+    box-shadow:  0 1px 20px 20px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+footer{
+    grid-area: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    text-align: center;
+    background-color: #1E90FF;
+}
+
+footer div{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
